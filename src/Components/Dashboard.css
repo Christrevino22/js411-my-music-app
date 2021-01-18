@@ -1,0 +1,4 @@
+.page_sec {
+  display: flex;
+  flex-direction: row;
+}
