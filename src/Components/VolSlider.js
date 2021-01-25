@@ -22,7 +22,7 @@ export default function VolSlider() {
         defaultValue={30}
         getAriaValueText={valuetext}
         aria-labelledby="discrete-slider"
-        // valueLabelDisplay="auto"
+        valueLabelDisplay="auto"
         step={10}
         marks
         min={10}

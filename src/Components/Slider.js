@@ -3,8 +3,7 @@ import Switch from "@material-ui/core/Switch";
 
 export default function Slider() {
   const [state, setState] = React.useState({
-    checkedA: true,
-    checkedB: true,
+    checked: true,
   });
 
   const handleChange = (event) => {
