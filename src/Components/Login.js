@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const [loggedIn, setloggedIn] = useState(false);
+// const [loggedIn, setloggedIn] = useState(false);
 
 const handleChange = (event) => {
   setloggedIn(!loggedIn);
